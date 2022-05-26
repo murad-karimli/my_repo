@@ -1,0 +1,75 @@
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-dir-column{
+    flex-direction: column;
+}
+.jus-con-spa-bet{
+    justify-content: space-between;
+}
+.background-size-pos{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.margin50{
+    margin: 50px;
+}
+.align-it-cen{
+    align-items: center;
+}
+.justify-con-cen
+{
+    justify-content: center;
+}
+.text-align-cen
+{
+    align-items: center;
+}
+.raleway700{
+    font-style: "Raleway";
+    font-weight: 700;
+}
+.raleway400{
+    font-family: "Raleway";
+    font-weight: 400;
+}
+.open-sans400{
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.h1-titles{
+    padding: 5px;
+    font-size: 32px;
+    line-height: 48px;
+}
+.p-texts{
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.a-element{
+    text-decoration: none;
+    font-size: 18px;
+}
+.color-white{
+    color: #ffff;
+}
+.margin-l50{
+    margin-left: 50px;
+}
+.padding50
+{    padding: 50px;
+}
+.margin15{
+    margin: 15px;
+}
+.border-radius50{
+    border-radius: 50%;
+}
