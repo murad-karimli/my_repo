@@ -10,7 +10,7 @@ body{
     margin: 28px;
 }
 .first-image-con{
-    background-image: url("assets/images/illustration-1.svg");
+    background-image: url("assets/images/illustration-1");
     width: 50%;
     height: 474px;   
 }
@@ -43,6 +43,7 @@ input{
 }
 .about-fylo-second-con{
     background:url('assets/images/Rectangle.png'),#F8F8FE;
+
 }
 .second-img-con{
     background: url("assets/images/illustration-2.svg");
