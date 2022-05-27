@@ -36,10 +36,16 @@ button{
 
 input{
     margin: 5px;
-    width: 320px;
     height: 40px;
     border: 0.625px solid #07043B;
     border-radius: 3.1px;
+}
+.get-started-input{
+    width: 60%;
+}
+.get-input
+{
+    width: 100%;
 }
 .about-fylo-second-con{
     background:url("/assets/images/Rectangle.png"),#F8F8FE;
@@ -177,6 +183,9 @@ input{
       {
           width: 110px;
       }
-
+      .get-started-input
+      {
+          width: max-content;
+      }
   }
 }
