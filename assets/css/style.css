@@ -51,7 +51,7 @@ input{
     width: 60%;
 }
 .about-fylo-second-con{
-    background:url("/assets/images/Rectangle.png"),#F8F8FE;
+    background:url("./assets/images/Rectangle.png"),#F8F8FE;
 }
 .second-img-con img{
     width: 80%;
@@ -79,7 +79,7 @@ input{
     width: 60%;
 }
 .founder-img-con{
-    background: url("/assets/images/avatar-testimonial.jpg");
+    background: url("./assets/images/avatar-testimonial.jpg");
     width: 48px;
     height: 48px;
     margin-top: 10px;
