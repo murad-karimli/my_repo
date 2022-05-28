@@ -5,14 +5,17 @@ body{
     margin: 0;
     padding:0;
 }
+.header-con
+{
+    margin: 30px;
+}
 .nav-con a{
     color: black;
     margin: 28px;
 }
-.first-image-con{
-    background-image: url("/assets/images/illustration-1.svg");
-    width: 50%;
-    height: 474px;   
+.first-image-con img{
+    width: 80%;
+    height: auto;  
 }
 h5{
     display: inline;
@@ -24,9 +27,9 @@ h5{
 button{
     background-color: #2f65f8;
     margin: 5px;
+    padding: 13px;
     border: none;
-    width: 200px;
-    height: 46px;
+    height: auto;
     border-radius:3.1px ;
     color: #ffff;
     font-size: 14px;
@@ -41,21 +44,18 @@ input{
     border-radius: 3.1px;
 }
 .get-started-input{
-    width: 60%;
+    width: 50%;
 }
 .get-input
 {
-    width: 100%;
+    width: 60%;
 }
 .about-fylo-second-con{
     background:url("/assets/images/Rectangle.png"),#F8F8FE;
-
 }
-.second-img-con{
-    background: url("/assets/images/illustration-2.svg");
-    width: 50%;
-    height: 409px;
-    z-index: 1;
+.second-img-con img{
+    width: 80%;
+    height: auto;
 }
 .second-text-con{
     padding: 10px;
@@ -69,13 +69,14 @@ input{
     color: #71DFCC;
 }
 .founder-con{
-    width: 356px;
-    height: 260px;
-    padding: 35px;
+   max-width: 30rem;
+    height: auto;
+    padding: 25px;
     background-color: #FFFFFF;
 }
 .about-founder{
     padding: 10px;
+    width: 60%;
 }
 .founder-img-con{
     background: url("/assets/images/avatar-testimonial.jpg");
@@ -85,10 +86,29 @@ input{
 }
 .get-access-con{
     background-color: #575988;
-    padding: 50px;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+}
+.get-access-con-div
+{
+    width: 100%;
+}
+.access-text
+{
+    max-width: 60%;
 }
 .get-email{
-    height: 280px;
+    height:auto;
+    width: 100%;
+}
+.get-started-btn
+{
+    max-width: 60rem;
+}
+.for-free-btn
+{
+    max-width: 60%;
 }
  button:hover
 {
@@ -98,22 +118,28 @@ input{
 .footer-con{
     background-color: #07043B;
     width: 100%;
-    height: 12  00px;
+    height: auto;
 }
-.logos{
-    color: #ffff;
-}
+
 .log0{
     width: 18px;
     height: 16px;
-    margin: 15px;
+    margin-left: 15px;
 }
-.footer-link-con{
-    height: 100px;
-    width: 300px;
+.logo-and-contact
+{
+    width: 33%;
+}
+.contact-div
+{
+    width: 32%;
+}
+.footer-links{
+    height: auto;
+    width: 35%;
   flex-direction: row;
 }
-.footer-link-con a:hover
+.footer-links a:hover
 {
     color: #2f65f8;
     transition: 0.7s ease-in-out;
@@ -136,28 +162,18 @@ input{
     height: 30px;
     display: none;
 }
-.contact-div
-{
-    margin: 120px;
-}
 @media only screen and (max-width: 1184px) {
-    .footer-con-div{
+    .footer-con
+    {
         flex-direction: column;
-      align-items: center;
-      justify-content: center;
     }
-    .footer-link-con
+    .footer-links
     {
         display: flex;
         flex-direction: column;
-    
     }
     .get-access-con-div{
         flex-direction: column;
-    }
-    .about-fylo-second-con
-    {
-        width: 100%;;
     }
   }
 
@@ -169,23 +185,35 @@ input{
   .nav-con a{
       display: none;
   }
-
+  .logo
+  {
+      width: 50%;
+  }
   @media only screen and (max-width: 870px) {
       .first-div
       {
           flex-direction: column;
+          width: 100%;
       }
+      .first-text-con
+      {
+          width: 100%;
+      }
+      .second-text-con
+      {
+          width: 100%   ;
+      }
+    
       .second-div
       {
           flex-direction: column;
       }
-      .logo
-      {
-          width: 110px;
-      }
-      .get-started-input
-      {
-          width: max-content;
-      }
+     
   }
+}
+@media only screen and (max-width: 476px) {
+    .about-founder
+    {
+        flex-direction: column;
+    }
 }
